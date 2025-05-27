@@ -11,3 +11,5 @@ function say(type, anything) {
     func: () => (typeof anything === 'function' ? anything() : anything),
   }[type]?.() ?? anything;
 }
+
+module.exports = {say};
