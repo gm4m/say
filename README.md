@@ -11,5 +11,5 @@ const {say} = require("./say.js");
 
 const msg = say("string", "hello");
 
-console.log(msg.string);
+console.log(msg);
 ```
